@@ -1,0 +1,40 @@
+{
+  "name": "PostcodeApp",
+  "version": "1.0.0",
+  "description": "A voice recognition app for using postcodes to serve you back the weather forcast",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jheepark/voicerecognition-postcode"
+  },
+  "keywords": [
+    "twilio",
+    "express",
+    "survey"
+  ],
+  "author": "Jae-Hee Park",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "got": "^8.0.1",
+    "jade": "^1.9.2",
+    "mongoose": "4.6.6",
+    "morgan": "^1.5.1",
+    "twilio": "3.0.0-rc.16"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
+    "lodash": "^4.16.6",
+    "mocha": "^3.1.2",
+    "supertest": "^2.0.1",
+    "supertest-promised": "^1.0.0",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
+  }
+}
